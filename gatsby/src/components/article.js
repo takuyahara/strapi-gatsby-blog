@@ -1,11 +1,11 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 
-const Restaurant = () => (
+const Article = () => (
   <StaticQuery
     query={graphql`
       query {
-        allStrapiRestaurant {
+        allStrapiArticle {
           edges {
             node {
               description
@@ -17,7 +17,7 @@ const Restaurant = () => (
     render={data => (
       <ul>
         {
-          data.allStrapiRestaurant.edges.map(edge => (
+          data.allStrapiArticle.edges.map(edge => (
             <li>{edge.node.name} - {edge.node.description}</li>
           ))
         }
@@ -25,4 +25,4 @@ const Restaurant = () => (
     )}
   />
 )
-export default Restaurant
+export default Article

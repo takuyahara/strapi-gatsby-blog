@@ -2,7 +2,7 @@
   "connection": "default",
   "collectionName": "restaurants",
   "info": {
-    "name": "restaurant",
+    "name": "article",
     "description": ""
   },
   "options": {

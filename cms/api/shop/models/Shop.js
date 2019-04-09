@@ -11,7 +11,7 @@ const cmd = [
 ].join(" && ");
 
 /**
- * Lifecycle callbacks for the `Restaurant` model.
+ * Lifecycle callbacks for the `Shop` model.
  */
 
 module.exports = {
